@@ -49,10 +49,17 @@ body {
 }
 .logo-bottom {
   display: inline-block;
-  margin-top: 60px;
-  margin-bottom: 20px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 /* Site-nav */
+
+.site-nav {
+  display: flex;
+}
+.site-nav > .item:not(:last-child) {
+  margin-right: 50px;
+}
 .site-nav .link {
   color: var(--secondary-text-color);
   text-decoration: none;
@@ -195,6 +202,7 @@ button.primary {
   line-height: 1.18;
 }
 .position {
+  margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
   line-height: 1.18;
