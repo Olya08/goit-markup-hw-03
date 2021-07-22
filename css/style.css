@@ -30,13 +30,14 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 0;
-  outline: 2px solid tomato;
 }
 
 .main-nav,
 .main-site-nav {
   display: flex;
   align-items: center;
+}
+.main-nav {
   border-bottom: 1px solid #ececec;
 }
 
